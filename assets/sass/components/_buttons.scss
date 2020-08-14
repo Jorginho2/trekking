@@ -1,0 +1,25 @@
+/* COMPONENTS: BUTTONS
+   ========================================================================== */
+
+.button {
+  padding-left: 1rem 4rem;
+  cursor: pointer;
+  font-family: $roboto;
+  font-size: $medium;
+  font-weight: $bold;
+  }
+
+
+
+  .navbar__buttons {
+    position: absolute;
+    right: 2rem;
+    
+    }
+  
+  .btn {
+    margin-left: 0.5rem;
+    border-radius: 10px;
+  }
+
+ 

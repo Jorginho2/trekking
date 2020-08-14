@@ -1,0 +1,17 @@
+header{
+    height: 900px;
+    width: auto;
+background-image: url(../images/bg-hero.svg);
+background-size: cover;
+background-repeat: no-repeat;
+
+
+    .hero__text{
+        max-width: 330px;
+        height: auto;
+        display: inline-block;
+        position: relative;
+        left: 3rem;
+        margin-top: 4rem;
+}
+}

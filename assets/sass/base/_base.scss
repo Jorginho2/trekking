@@ -1,0 +1,30 @@
+.navbar__buttons{
+  display: none;
+}
+
+h1{
+  font-weight: bold;
+}
+.main{
+    justify-content: left;
+  }
+@media (min-width: 768px) {
+  
+    .navbar__buttons{
+display: block;
+    }
+  
+}
+
+@media (min-width: 1200px) {
+  body {
+    margin: 0 auto;
+ 
+  }
+  
+}
+
+
+
+
+
