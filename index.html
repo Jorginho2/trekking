@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Star Treek</title>
+  <title>Star Trekk</title>
   <!-- Google Fonts - Roboto 700| Open Sans 400 -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <!-- Font Awesome - Icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -21,7 +21,7 @@
       <div class="container-fluid">
         <object data="assets/images/Logo.svg" type="image/svg+xml">
         </object>
-     
+
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,84 +40,98 @@
               <a class="nav-link" href="#">Precios</a>
             </li>
             <div class="navbar__buttons">
-              <button type="button" class="btn btn-light text-muted">Iniciar Sección</button>
-              <button type="button" class="btn btn-info">Registrate</button>
+              <button type="button" class="btn btn-light text-muted button-medium">Iniciar Sección</button>
+              <button type="button" class="btn btn-info button-medium">Registrate</button>
             </div>
-
-
           </ul>
         </div>
       </div>
     </nav>
     <header>
-      <div class="hero__text container-fluid">
-        <h1 class="hero__text-title">Haz Trekking sin Parar</h1>
-        <p>Con Trekk-in te desperocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definis la
-          mejor ruta a tomar con tus compañeros de expedición.</p>
+      <div class="hero__text ">
+        <h2 class="hero__text-title">Haz Trekking sin Parar</h2>
+        <p class="hero__text-1">Con Trekk-in te desperocuparás de la estimación de tu viaje, ya que con unos simples
+          pasos podrás definis la mejor ruta a tomar con tus compañeros de expedición.
+        </p>
       </div>
-
+     
+      <img src="assets/images/bg-hero.svg" alt="---" class="hero__imagen">
     </header>
 
     <main class="main conteiner">
       <div class="main__title col center">
         <h1>Características</h1>>
       </div>
-  </div>
-  <div class="row">
-    <div class="main__graph col center">
-      <img src="assets/images/bar-graph.svg">
-    </div>
-    <div class="main__text col">
-      <div class="container main__text-container">
-        <h1>Estadísticas de tu progreso</h1>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam numquam amet accusamus sapiente aperiam maiores
-          rem atque, minima soluta explicabo dolorum ipsa dolores vero voluptas distinctio temporibus dolore qui nobis?
-        </p>
-      </div>
-    </div>
-  </div>
-  </main>
 
-  <section class="price">
-    <h1>Precios</h1>
-    <div class="cards row row-cols-1 row-cols-md-3">
-      <div class="col-3 mb-3">
-        <div class="card">
-          <div class="card-body">
-            <h2 class="card-title">Treek-in Free</h2>
-            <h3 class="card-price">$ 0 / mes</h3>
+      <div class="row">
+        <div class="main__graph col center">
+          <img src="assets/images/bar-graph.svg">
+        </div>
+        <div class="main__text col">
+          <div class="container main__text-container">
+            <h1 class="text-xlarge">Estadísticas de tu progreso</h1>
             <br>
-            <hr>
-            <ul class="card-list">
-              <li>Ver mapa creado por usuarios</li>
-              <li>Concertar con otros usuarios</li><br><br><br>
-            </ul>          
-          <hr>
-          <button id="button-card" type="button" class="btn btn-primary">Obten Free</button>
+            <p class="text-large">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam numquam amet accusamus
+              sapiente aperiam maiores
+              rem atque, minima soluta explicabo dolorum ipsa dolores vero voluptas distinctio temporibus dolore qui
+              nobis?
+            </p>
           </div>
         </div>
       </div>
-      <div class="col-3 mb-3 offset-md-1">
-        <div class="card">
-          <div class="card-body">
-            <h2 class="card-title">Treek-in</h2>
-            <h3 class="card-price">$ 3500 / mes</h3>
-            <br><hr>
-            <ul class="card-list">
-              <li>Ver mapa creado por usuarios</li>
-              <li>Concertar con otros usuarios</li>
-              <li>Definir mejores rutas</li>
-              <li>Mapas Offline</li>
-              <li>Integración con otras aplicaciones</li>
-            </ul>
-            <hr>
-            <button id="button-card" type="button" class="btn btn-primary">Obten Premium</button>
+    </main>
+
+    <section class="price">
+      <h1 class="price__title mb-0">Precios</h1>
+      <div class="cards row">
+        <div class="free col mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Trekk-in Free</h2>
+              <h3 class="card-price">$ 0 / mes</h3>
+              <br>
+              <hr>
+              <ul class="card-list">
+                <li>Ver mapa creado por usuarios</li>
+                <li>Concertar con otros usuarios</li><br><br><br>
+              </ul>
+              <hr>
+              <button id="button-card" type="button" class="btn btn-primary button-large">Obten Free</button>
+            </div>
+          </div>
+        </div>
+        <div class="pay col mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Trekk-in</h2>
+              <h3 class="card-price">$ 3500 / mes</h3>
+              <br>
+              <hr>
+              <ul class="card-list">
+                <li>Ver mapa creado por usuarios</li>
+                <li>Concertar con otros usuarios</li>
+                <li>Definir mejores rutas</li>
+                <li>Mapas Offline</li>
+                <li>Integración con otras aplicaciones</li>
+              </ul>
+              <hr>
+              <button id="button-card" type="button" class="btn btn-primary button-large">Obten Premium</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <footer>
+      <div class="footer__content row">
+        <ul class="links row">
+          <li> <a class="link" href="#">Legal</a> </li>
+          <li><a class="link" href="#">Cookies</a></li>
+          <li><a class="link" href="#">Sobre anuncios</a></li>
+        </ul>
+        <p class="footer__copyright">© 2018 Trekk-in SPA</p>
+
+      </div>
+    </footer>
 
   </div>
   <!-- Jquery V.3.3.1 -->

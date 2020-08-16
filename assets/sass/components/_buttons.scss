@@ -7,9 +7,14 @@
   font-family: $roboto;
   font-size: $medium;
   font-weight: $bold;
+  min-width: $medium;
   }
-
-
+  .button-medium{
+    min-width: $bmedium;
+  }
+  .button-large{
+    min-width: $blarge;
+  }
 
   .navbar__buttons {
     position: absolute;

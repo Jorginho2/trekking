@@ -1,17 +1,33 @@
 header{
-    height: 900px;
-    width: auto;
-background-image: url(../images/bg-hero.svg);
-background-size: cover;
-background-repeat: no-repeat;
-
-
-    .hero__text{
-        max-width: 330px;
-        height: auto;
-        display: inline-block;
-        position: relative;
-        left: 3rem;
-        margin-top: 4rem;
+    display: flex;
+    flex-flow: column wrap;
 }
+    .hero__text{
+    max-width: 340px;
+    height: auto;
+    font-size: large;
+    text-align: left;
+    position: relative;
+    padding: 3rem;
+    box-sizing: content-box;
+  
+    .hero__text-1{
+    font-size: $medium;
+    margin-bottom: 0;
+    max-width: 340px;
+    }
+}
+.hero__text-title{
+    font-size: $xxxxx-large;       
+    font-weight: $bold;
+    }
+ .hero__imagen{
+    width: 100%;
+    min-width: 420px;
+    display: block;
+    height: auto;
+    max-width: 1700px;
+    position: relative;
+    top: 4rem;
+    margin-bottom: 2rem;
 }
