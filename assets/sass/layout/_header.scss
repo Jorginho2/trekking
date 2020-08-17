@@ -2,6 +2,17 @@ header{
     display: flex;
     flex-flow: column wrap;
 }
+
+.graph{
+    animation-name: opacity;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    @keyframes opacity{
+        0% {opacity: 0;}
+        60% {opacity: 2;}
+        100% {opacity: 1;}
+    }
     .hero__text{
     max-width: 340px;
     height: auto;
@@ -30,4 +41,7 @@ header{
     position: relative;
     top: 4rem;
     margin-bottom: 2rem;
+}
+
+
 }

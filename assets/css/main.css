@@ -8317,7 +8317,23 @@ header {
   flex-flow: column wrap;
 }
 
-.hero__text {
+.graph {
+  animation-name: opacity;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.graph .hero__text {
   max-width: 340px;
   height: auto;
   font-size: large;
@@ -8326,18 +8342,16 @@ header {
   padding: 3rem;
   box-sizing: content-box;
 }
-.hero__text .hero__text-1 {
+.graph .hero__text .hero__text-1 {
   font-size: 16px;
   margin-bottom: 0;
   max-width: 340px;
 }
-
-.hero__text-title {
+.graph .hero__text-title {
   font-size: 50px;
   font-weight: 700;
 }
-
-.hero__imagen {
+.graph .hero__imagen {
   width: 100%;
   min-width: 420px;
   display: block;
